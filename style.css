@@ -1,0 +1,29 @@
+.categories img {
+  height: 120px;
+}
+
+.bag-bg-purple {
+  background-color: #d16ccd;
+}
+
+.panda-btn-pink {
+  background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 25px;
+  cursor: pointer;
+}
+
+.panda-buy-now{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+
+.panda-buy-now:hover{
+  background-image: linear-gradient(to bottom, #fd62a0 0%, #fc297a 100%);  
+}

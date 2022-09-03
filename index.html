@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bright Ecommerce</title>
+  <!-- cdn link  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <!-- font awesome link  -->
+  <script src="https://kit.fontawesome.com/1edf373191.js" crossorigin="anonymous"></script>
+  <!-- custom css  -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="container">
+    <nav class="navbar navbar-expand-lg pt-0  fixed-top bg-light">
+      <div class="container bg-light p-2">
+        <a class="navbar-brand" href="#home">
+          <img src="images/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#shoes">Shoes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#bags">Bagpack</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#subscribe">Subscribe</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- image slider start  -->
+    <section class="mt-5 pt-5" id="home">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner  mt-5 p-4 rounded-4" style="background-color: rgb(253, 233, 236);">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-lg-7 d-flex align-items-center px-5 ">
+                <div class="text-center text-sm-center text-md-center text-lg-start mb-sm-5 mb-md-5 mb-5 mb-lg-0">
+                  <h2 class="display-5 fw-semibold">Cool Dude Headphone</h2>
+                  <p class="fs-5 fst-normal">This is the best headphone in the world for people who just want to waste
+                    time in front of funky world.</p>
+                  <h1 class="display-4 fw-semibold" style="color:#FF136F;">$420</h1>
+                  <div class="btn panda-btn-pink fs-3">Buy Now
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="row">
+              <div class="col-lg-7 d-flex align-items-center px-5">
+                <div class="text-center text-sm-center text-md-center text-lg-start mb-sm-5 mb-md-5 mb-5 mb-lg-0">
+                  <h2 class="display-5 fw-semibold">Mega LCD TV for Sports</h2>
+                  <p class="fs-5 fst-normal">This is the best tv in the world for people who just want to waste time in
+                    front of tv.</p>
+                  <h1 class="display-4 fw-semibold" style="color:#FF136F">$1200</h1>
+                  <div class="btn panda-btn-pink fs-3">Buy
+                    Now</div>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="row">
+              <div class="col-lg-7 d-flex align-items-center px-5">
+                <div class="text-center text-sm-center text-md-center text-lg-start mb-sm-5 mb-md-5 mb-5 mb-lg-0">
+                  <h2 class="display-5 fw-semibold">X-Box for your living room</h2>
+                  <p class="fs-5 fst-normal">This is the best x-box in the world for people who just want to waste time
+                    in front of fake sports.</p>
+                  <h1 class="display-4 fw-semibold" style="color:#FF136F">$600</h1>
+                  <div class="btn fs-3 panda-btn-pink">Buy
+                    Now</div>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- image slider end  -->
+  </header>
+  <main>
+    <!-- catagories section  -->
+    <section>
+      <div class="container text-center my-5 py-5">
+        <div class="row g-5">
+          <div class=" col-lg-4 col-md-6 categories">
+            <div class="bg-warning d-flex align-items-center justify-content-around rounded-4 py-2 ">
+              <h1 class="text-white display-5 fw-semibold">Watch</h1>
+              <div>
+                <img src="images/categories/watch.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class=" col-lg-4 col-md-6 categories ">
+            <div class="bag-bg-purple d-flex align-items-center justify-content-around rounded-4 py-2">
+              <h1 class="text-white display-5 fw-semibold">Bag</h1>
+              <div>
+                <img src="images/categories/bag.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6  categories">
+            <div class="bg-primary d-flex align-items-center justify-content-around rounded-4 py-2">
+              <h1 class="text-white display-5 fw-semibold">Shoes</h1>
+              <div>
+                <img src="images/categories/shoes.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- shoes card section  -->
+
+    <section id="shoes">
+      <div class="container my-5 py-5">
+        <h1>Shoes</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col baksho" >
+            <div class="card h-100 border-0 shadow-lg">
+              <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Supply 350</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                  additional.</p>
+                <h4>$120</h4>
+              </div>
+              <div class="btn w-50 panda-buy-now px-4 py-2 text-white m-3 mt-0 fs-5 remove-btn">Buy Now &nbsp; <i
+                  class="fa-solid fa-arrow-right"></i></div>
+            </div>
+          </div>
+          <div class="col baksho">
+            <div class="card h-100 border-0 shadow-lg">
+              <img src="images/shoes/shoe-2.png" id="nike-360" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nike 360</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <h4>$320</h4>
+              </div>
+              <div class="btn w-50 panda-buy-now px-4 py-2 text-white m-3 mt-0 fs-5 remove-btn">Buy Now &nbsp; <i
+                  class="fa-solid fa-arrow-right"></i></div>
+            </div>
+          </div>
+          <div class="col baksho">
+            <div class="card h-100 border-0 shadow-lg" id="red-card">
+              <img src="images/shoes/shoe-3.png" class="card-img-top" id="red-airmax" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Red Airmax</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.
+                </p>
+                <h4>$350</h4>
+              </div>
+              <div class="btn w-50 panda-buy-now px-4 py-2 text-white m-3 mt-0 fs-5 remove-btn">Buy Now &nbsp; <i
+                  class="fa-solid fa-arrow-right"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- bags section  -->
+
+    <section id="bags">
+      <div class="container my-5 py-5">
+        <h1>Bagpack</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col baksho">
+            <div class="card h-100 border-0 shadow-lg">
+              <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Red Laltu Bag</h5>
+                <h4>$120</h4>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+              <div class="btn w-50 panda-buy-now px-4 py-2 text-white m-3 mt-0 fs-5 remove-btn">Buy Now &nbsp; <i
+                  class="fa-solid fa-arrow-right"></i></div>
+            </div>
+          </div>
+          <div class="col baksho">
+            <div class="card h-100 border-0 shadow-lg">
+              <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Blue Niltu Bag</h5>
+                <h4>$320</h4>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="btn w-50 panda-buy-now px-4 py-2 text-white m-3 mt-0 fs-5 remove-btn">Buy Now &nbsp; <i
+                  class="fa-solid fa-arrow-right"></i></div>
+            </div>
+          </div>
+          <div class="col baksho">
+            <div class="card h-100 border-0 shadow-lg">
+              <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Black Kaltu Bag</h5>
+                <h4>$350</h4>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+              <div class="btn w-50 panda-buy-now px-4 py-2 text-white m-3 mt-0 fs-5 remove-btn">Buy Now &nbsp; <i
+                  class="fa-solid fa-arrow-right"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Subscribe section  -->
+
+    <section id="subscribe">
+      <div class="container d-flex justify-content-center align-items-center my-5 py-5 "
+        style="background-color: rgb(253, 233, 236);" id="stay">
+        <div class="py-5">
+          <h1>LET'S STAY IN TOUCH</h1>
+          <p class="fs-5 text-muted">Get updates on sales, specials and more</p>
+          <form class="row g-3">
+            <div class="col-md-12 ">
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Please type email">
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn bright-buy-now text-white px-4 py-2 fs-5" onclick="consoleBtn()" id="submit-btn" disabled>Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--page footer  -->
+
+  <footer class="pt-5 text-center">
+    <p class="mb-0 "><small>©2022. Bright Ecommerce. All rights reserved. Lagos, Nigeria.</small></p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
